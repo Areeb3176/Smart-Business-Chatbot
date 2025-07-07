@@ -1,0 +1,29 @@
+# Flask and Server
+flask
+gunicorn
+
+# Configuration
+python-dotenv
+
+# LangChain and AI Components
+langchain
+langchain-core
+langchain-groq
+langchain-community
+langchain-huggingface
+langchain-chroma
+langgraph
+sentence-transformers
+pydantic
+tavily-python
+
+# Document Loading and Parsing
+unstructured[md] # Use [md] to include markdown parsing dependencies
+beautifulsoup4
+requests
+PyPDF2 # Included because it's in your imports
+
+# Note: 'torch' is installed separately in the Dockerfile for CPU optimization.
+
+# For testing only, not required for production runtime.
+# playwright
